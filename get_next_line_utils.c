@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: wluedara <wluedara@student.42.fr>          +#+  +:+       +#+        */
+/*   By: wluedara <Warintorn_L@outlook.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/13 12:50:36 by wluedara          #+#    #+#             */
-/*   Updated: 2022/10/30 00:30:04 by wluedara         ###   ########.fr       */
+/*   Updated: 2022/10/31 14:41:00 by wluedara         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "get_next_line.h"
+#include "get_next_line.h"
 
 int	ft_strlen(char *str)
 {
@@ -96,23 +96,3 @@ char	*ft_substr(char *s, unsigned int start, size_t len)
 	sub[i] = '\0';
 	return (sub);
 }
-
-// char	*ft_strrchr(const char *str, int c)
-// {
-// 	int		len;
-// 	char	*s;
-// 	char	ch;
-
-// 	ch = c;
-// 	s = (char *)str;
-// 	len = ft_strlen(s) - 1;
-// 	if (ch == '\0')
-// 		return (&s[len + 1]);
-// 	while (len >= 0)
-// 	{
-// 		if (s[len] == ch)
-// 			return (&s[len]);
-// 		len--;
-// 	}
-// 	return (0);
-// }
